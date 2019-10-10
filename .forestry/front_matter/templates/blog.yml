@@ -8,12 +8,12 @@ fields:
   description: ''
   config:
     required: true
-    date_format: 
-    time_format: 
+    date_format:
+    time_format:
     display_utc: false
   default: now
 - name: title
   type: text
-  config:
-    required: false
   label: Title
+  config:
+    required: true
